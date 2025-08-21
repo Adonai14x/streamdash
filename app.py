@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.header("Car Sales Dashboard")
 
-df = pd.read_csv("vehicles_us.csv")
+df = pd.read_csv("C:\Users\alanc\OneDrive\Documents\Projects\streamdash\vehicles_us.csv")
 
 st.write("Car Sales Data Overview", df.head())
 
