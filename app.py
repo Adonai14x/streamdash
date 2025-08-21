@@ -18,5 +18,3 @@ if.st.checkbox("Show Data Table"):
     st.dataframe(df)
     filtered = df[df["make"] == st.selectbox("Select Make", df["make"].unique())]
     st.write(filtered.head())
-
-    
